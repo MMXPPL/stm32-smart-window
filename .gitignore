@@ -1,0 +1,25 @@
+# 构建产物
+build/
+*.o
+*.a
+*.axf
+*.hex
+*.bin
+*.elf
+*.map
+*.lst
+
+# Keil 临时文件
+*.uvguix.*
+*.bak
+*.tmp
+DebugConfig/
+
+# Python / 系统
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# AI 工作目录
+.workbuddy/
